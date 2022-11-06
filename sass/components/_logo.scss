@@ -9,17 +9,19 @@
 
 //   Логотип у хедері
 .header__logo {
+  @extend %link;
   padding: 25px 0;
 }
-
 .header__logo--color {
   color: var(--black-text-color);
 }
+
 // Логотип у футері
 .footer__logo {
+  @extend %link;
   display: block;
   margin-bottom: 20px;
 }
 .footer__logo--color {
-  color: var(--primary-color);
+  color: var(--white-color);
 }

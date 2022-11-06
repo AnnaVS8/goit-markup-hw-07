@@ -1,5 +1,7 @@
 @import "./utils/variables";
+@import "./utils/placeholders";
 @import "./utils/base";
+@import "./utils/mixin";
 
 @import "./components/benefits";
 @import "./components/btn";
@@ -8,6 +10,7 @@
 @import "./components/header";
 @import "./components/hero";
 @import "./components/logo";
+@import "./components/mailing";
 @import "./components/modal";
 @import "./components/portfolio";
 @import "./components/social";

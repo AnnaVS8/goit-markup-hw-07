@@ -1,6 +1,6 @@
 body {
-  background-color: var(--primary-color);
-  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  color: var(--primary-color);
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.14;
@@ -45,13 +45,6 @@ img {
   margin: -1px;
 }
 
-.list {
-  list-style: none;
-}
-.link {
-  text-decoration: none;
-}
-
 .current {
   color: var(--brand-color);
 }
@@ -63,4 +56,6 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
+
+
 

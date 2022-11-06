@@ -2,16 +2,14 @@
   margin-bottom: 50px;
 }
 .clients__list {
+  @extend %list;
   display: flex;
   gap: 30px;
-  list-style: none;
   justify-content: center;
   align-items: center;
 }
 .client__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ @include centeredFlex ();
   width: 170px;
   height: 92px;
   border: 1px solid var(--secondary-color);
